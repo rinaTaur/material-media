@@ -10,16 +10,16 @@
             <!-- <md-button class="md-primary" ng-click="showDialog($event)" md-ink-ripple md-ink-ripple-button>Launch Dialog</md-button> -->
     
     </section>
-    <div class="techs" layout-align="center">
+    <div class="techs md-content" layout-align="center">
         <md-card ng-repeat="awesomeThing in awesomeThings | orderBy:'rank'">
-            <div class="thumbnail">
+            <md-card-content>
                 <img class="pull-right" ng-src="assets/images/{{awesomeThing.logo}}" alt="{{awesomeThing.title}}">
                 <div class="caption">
                     <h3>{{awesomeThing.title}}</h3>
                     <p>{{awesomeThing.description}}</p>
                     <p><a ng-href="{{awesomeThing.url}}">{{awesomeThing.url}}</a></p>
                 </div>
-            </div>
+            </md-card-content>
         </md-card>
     </div>
     <footer>
