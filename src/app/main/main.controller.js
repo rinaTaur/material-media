@@ -74,6 +74,11 @@ angular.module('materialMedia')
             'url': 'https://material.angularjs.org/#/',
             'description': 'The Angular reference implementation of the Google\'s Material Design specification.',
             'logo': 'angular-material.png'
+        }, {
+            'title': 'Videogular',
+            'url': 'http://www.videogular.com/',
+            'description': 'Simple Angular Video',
+            'logo': 'angular-material.png'
         }];
         angular.forEach($scope.awesomeThings, function(awesomeThing) {
             awesomeThing.rank = Math.random();
