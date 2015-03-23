@@ -8,3 +8,5 @@
 ### push dist to github pages
 ```gulp build```
 ```git subtree push --prefix dist origin gh-pages```
+
+<a href="http://rinataur.github.io/material-media">Demo</a>
